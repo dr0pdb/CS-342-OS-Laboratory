@@ -1,0 +1,27 @@
+a. How many CPU and cores does the machine have?
+
+Used command: cat /proc/cpuinfo
+CPU(Socket) - 1
+Cores - 2
+
+b. What is the frequency of each CPU ?
+Used command: lscpu
+CPU MHz:             1541.712
+CPU max MHz:         3100.0000
+CPU min MHz:         400.0000
+
+c. How much memory does your system have?
+Used command: cat /proc/meminfo
+MemTotal:        8064340 kB
+
+d. How much of it is free and available? What is the difference between them?
+Used command: cat /proc/meminfo
+MemFree:         5515168 kB
+MemAvailable:    6187680 kB
+Free memory is the amount of memory which is currently not used for anything. This number should be small, because memory which is not used is simply wasted.
+Available memory is the amount of memory which is available for allocation to a new process or to existing processes.
+
+e. What is total number of user-level processes in the system?
+Used command: top
+Tasks: 165 total, 1 running, 163 sleeping, 1 stopped, 0 zombie.
+So total number of user level processes is 165.
