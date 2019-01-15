@@ -1,0 +1,3 @@
+The sleep command can be used to sleep for a specified amount of time.
+We can use the wait() system call inside the parent in order to make it wait for the child process.
+In order to get the list of processes we can use the "ps" command. In order to run it we can use the system() function which runs linux commands.

@@ -1,0 +1,6 @@
+The call to the fork() system call returns an integer.
+1. In the parent process, it returns the process id of the newly created child process. 
+2. In the child process, it returns zero.
+
+So for getting the child's id in the parent's process, we can just use to returned process id from the fork call.
+In order to get the parent's id in the child's process, we can use the getppid() system call.

@@ -1,0 +1,2 @@
+When creating a new child process, the fork() system calls copies all the local variables of the parent process.
+If we make changes to variables in the child process, it doesn't have any impact on the local variables of the parent process and vice-versa.

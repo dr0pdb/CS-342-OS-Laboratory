@@ -1,0 +1,4 @@
+When creating a new child process, the fork() system calls copies all the variables of the parent process.
+If we make changes to variables in the child process, it doesn't have any impact on the variables of the parent process and vice-versa.
+
+That's why making changes to the global_counter variable in one process doesn't affect the variable's value in the other process.

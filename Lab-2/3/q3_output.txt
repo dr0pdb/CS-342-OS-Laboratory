@@ -1,0 +1,5 @@
+The value of global_counter before fork is 1
+Adding 2 to global_counter in the parent process
+The value of global_counter in parent process is 3
+Adding 10 to global_counter in the child process
+The value of global_counter in child process is 11

@@ -1,0 +1,17 @@
+Parent process is waiting for child process.
+----The list of processes from the child process-----
+  PID TTY          TIME CMD
+ 1630 pts/0    00:00:00 bash
+ 5291 pts/0    00:00:00 a.out
+ 5292 pts/0    00:00:00 a.out
+ 5293 pts/0    00:00:00 ps
+
+Sleeping the child process for 2 seconds
+Child process is done sleeping.
+Parent process is done waiting for child process.
+
+----The list of processes from the parent process-----
+  PID TTY          TIME CMD
+ 1630 pts/0    00:00:00 bash
+ 5291 pts/0    00:00:00 a.out
+ 5294 pts/0    00:00:00 ps

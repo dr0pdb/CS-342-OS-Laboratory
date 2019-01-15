@@ -1,0 +1,2 @@
+The value of 5! from the parent process(id: 3547) is 120
+The value of 5! from the child process(id: 3548) is 120
