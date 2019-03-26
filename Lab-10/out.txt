@@ -1,0 +1,11 @@
+Enter the number of entries in the work queue: Enter the entries separated by space: 
+Moving from 50 to 62
+Moving from 62 to 64
+Moving from 64 to 34
+Moving from 34 to 11
+Moving from 11 to 95
+Moving from 95 to 119
+Moving from 119 to 123
+Moving from 123 to 180
+The total head movement for satisfying this work queue is: 236
+The total seek time for this is: 1180 ms
